@@ -1,0 +1,261 @@
+
+
+#header{
+    background-color: black;
+    padding-top: 25px;
+    height: 50px;
+}
+
+.nav{
+    color: white;
+    list-style: none;
+    display: inline-flex;
+    gap: 40px;
+    padding-bottom: 20px;
+    padding-left: 13px;
+}
+.letsconnect{
+    display: flex;
+    justify-content: right;
+    width: 100px;
+    float: right;
+}
+.nav>ul{
+    margin: 0;
+    padding: 0;
+    font-size: medium;
+    font-family:Montserrat;
+    
+    
+}
+
+
+.nav>ul:hover{
+    cursor: pointer;
+    color:darkturquoise
+}
+#intro{
+    background-color: #071952;
+    height: 110px;
+}
+#intro>h1{
+    font-family: Montserrat;
+    font-size: 40px;
+    margin: 0px;
+    display: inline-block;
+    color: #B6EADA;
+    
+}
+
+
+
+#intro>p{
+    float: right;
+    font-family:Montserrat ;
+    padding-right: 50px;
+    
+}
+
+.homeimg>.img-1{
+    max-height: 500px;
+    width:100%;
+    object-fit: cover;
+
+}
+
+.homeimg{
+    background-color: #121a24;
+}
+
+.greeting>.emoji{
+    font-size: 27px;
+    color: rgba(17, 159, 166, 0.988);
+    font-family: Montserrat;
+    font-weight: bold;
+}
+
+.greeting>.tagline{
+    font-size: 20px;
+    font-family: Montserrat;
+}
+.box-1{
+    font-family: Montserrat;
+    border: solid rgba(17, 159, 166, 0.988) 2px;
+    border-radius: 25px;
+    padding: 20px 20px 0px 20px;
+    height: 205px;
+}
+.box-1>p{
+    color: whitesmoke;
+}
+.greeting>.tagline{
+    color: rgba(17, 159, 166, 0.988);
+}
+
+.aboutme{
+    display: flex;
+    justify-content: center;
+    padding-top: 25px;
+}
+
+.images{
+    display: grid;
+    grid-template-columns: 1fr;
+    margin: 20px;
+}
+.myimg{
+    border-radius: 50%;
+}
+.Certifications{
+    background-color: white;
+    padding-top: 30px;
+}
+
+.Certifications>h2{
+    padding-left: 30px;
+    margin-top: 0px;
+    font-family: Montserrat;
+    color: rgba(17, 159, 166, 0.988);
+    font-size: 30px;
+    align-items: center;
+}
+.allcerts{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    
+}
+
+.cert{
+    
+    padding-top: 25px;
+}
+.border{
+    height: 430px;
+    border: solid rgba(17, 159, 166, 0.988) 2px ;
+    border-radius: 10px;
+}
+.border>p{
+    display: grid;
+    
+    font-family:Montserrat ;
+    justify-content: center;
+    
+}
+
+.skillsgrid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    justify-content: center;
+    
+    
+}
+
+.allskills{
+    padding-left: 40px;
+    margin-left: 30px;
+}
+.myskills{
+    background-color:#121a24 ;
+}
+.myskills>h2{
+    padding-left: 37px;
+    font-family: Montserrat;
+    color: rgba(17, 159, 166, 0.988);
+    font-size: 30px;
+    
+    padding-top: 15px;
+
+}
+.allskills>h3{
+    color:rgba(17, 159, 166, 0.988)
+
+}
+
+#footer{
+    background-color: black;
+    padding-top: 20px;
+
+}
+.last{
+    display: flex;
+    color: white;
+    text-decoration: none;
+    justify-content: center;
+    font-family: Montserrat;
+    font-size: medium;
+}
+.owner{
+    color: white;
+    display: flex;
+    justify-content: center;
+    padding-left: 40px;
+}
+.last>ul:hover{
+    cursor: pointer;
+    color:darkturquoise
+}
+@media (min-width: 319px) and (max-width: 480px){
+    .nav>ul{
+        font-size: small;
+    }
+    .icons{
+        display: none;
+    }
+    #intro>h1{
+        font-size: medium;
+        padding-top: 20px;
+    }
+    .myimg{
+        width: 120px;
+        height: 120px;
+    }
+    .box-1{
+        height: 450px;
+    }
+    .aboutme{
+        padding-left: 10px;
+        padding-bottom: 15px;
+    }
+    .allcerts{
+        display: block;
+    }
+    .border{
+        margin: 30px 25px 30px 25px;
+        height: 350px;
+    }
+    .cert{
+        width: 250px;
+        margin-left: 50px;
+    }
+    .allskills{
+        padding: 10px;
+        margin: 0px;
+    }
+    .allskills>img{
+        width: 40px;
+        padding: 10px;
+        
+    }
+    .allskills>h3{
+        font-size: small;
+        font-weight: 200;
+        padding: 0px;
+    }
+    .skillsgrid{
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+    .last>ul{
+        padding: 0px;
+        gap: 10px;
+    }
+    .last{
+        justify-content: space-evenly;
+    }
+    .owner>p{
+        padding-right: 40px;
+        font-family: Montserrat;
+    }
+
+        
+    }
